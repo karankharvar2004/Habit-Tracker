@@ -448,16 +448,6 @@ The project has been validated with:
 - backend Python syntax parsing
 - frontend production build using `npm run build`
 
-## Future Improvement Ideas
-
-- Add Alembic migrations instead of startup schema sync
-- Add reminder notifications
-- Add richer chart visualizations
-- Add test suite for backend routes and frontend pages
-- Add deployment instructions
-- Add password reset flow
-- Add habit notes and custom targets
-
 ## Authoring Notes
 
 This README describes the project as it currently exists in the codebase, including:
