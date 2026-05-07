@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="momentumArc" x1="118" y1="118" x2="421" y2="410" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B7F500"/>
+      <stop offset="0.46" stop-color="#3AD65B"/>
+      <stop offset="1" stop-color="#0FB6F2"/>
+    </linearGradient>
+    <linearGradient id="momentumBody" x1="152" y1="184" x2="426" y2="398" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B2F20C"/>
+      <stop offset="0.52" stop-color="#1CCF8A"/>
+      <stop offset="1" stop-color="#19B4F1"/>
+    </linearGradient>
+    <linearGradient id="momentumFold" x1="214" y1="268" x2="362" y2="394" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#066C63"/>
+      <stop offset="1" stop-color="#0C82D9"/>
+    </linearGradient>
+    <filter id="softShadow" x="66" y="66" width="404" height="386" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#0A5A86" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <path d="M103 265C103 168 181 110 282 110C333 110 381 127 420 158" stroke="url(#momentumArc)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M95 291H154" stroke="url(#momentumArc)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M95 323H154" stroke="url(#momentumArc)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M134 350C173 405 236 440 308 440C384 440 450 399 481 337" stroke="url(#momentumArc)" stroke-width="18" stroke-linecap="round"/>
+  <g filter="url(#softShadow)">
+    <path d="M177 365H226L247 250C251 235 270 230 280 241L363 331C370 339 383 339 390 331L455 262C468 249 489 261 486 278L458 365H403L421 282C423 270 409 262 401 270L352 319C344 327 331 327 323 318L261 251C252 240 235 247 233 260L177 365Z" fill="url(#momentumBody)"/>
+    <path d="M168 364L200 187C203 169 225 162 238 175L328 278C336 288 351 288 360 278L474 154C487 139 512 151 508 170L469 364H412L435 247C438 233 420 224 411 235L353 304C344 315 327 315 317 303L248 225C238 213 219 219 216 233L192 364H168Z" fill="url(#momentumBody)"/>
+    <path d="M327 278L474 154C487 139 512 151 508 170L469 364H412L435 247C438 233 420 224 411 235L353 304L327 278Z" fill="url(#momentumFold)" fill-opacity="0.46"/>
+  </g>
+</svg>

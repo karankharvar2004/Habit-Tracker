@@ -1,0 +1,66 @@
+:root {
+  font-family:
+    "Segoe UI",
+    "Trebuchet MS",
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #14213d;
+  background: #f2f5f9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid rgba(20, 33, 61, 0.12);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.88);
+  outline: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: rgba(255, 140, 66, 0.8);
+  box-shadow: 0 0 0 4px rgba(255, 140, 66, 0.16);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: #b35c00;
+}
+
+#root {
+  min-height: 100vh;
+}

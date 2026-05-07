@@ -1,0 +1,32 @@
+# Environment files
+.env
+.env.*
+!.env.example
+!FrontEnd-HabitTracker/.env
+!FrontEnd-HabitTracker/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+myvenv/
+.venv/
+venv/
+
+# Frontend
+FrontEnd-HabitTracker/node_modules/
+FrontEnd-HabitTracker/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
